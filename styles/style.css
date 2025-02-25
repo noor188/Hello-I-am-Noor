@@ -1,0 +1,48 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+    height: 100vh;  /* Ensures full viewport height */
+    margin: 0;
+    /* font-family: Arial, sans-serif;
+    color: white; Adjust text color for visibility */
+}
+
+#nav-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    display: inline-flex;
+    
+}
+
+.nav-item a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bio-part{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;        
+}
+
+#profile-img{
+    height: 250px;
+    width: 250px;
+}
