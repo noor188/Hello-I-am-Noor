@@ -15,8 +15,7 @@ body{
 }
 
 .nav-item{
-    display: inline-flex;
-    
+    display: inline-flex;    
 }
 
 .nav-item a{
@@ -46,3 +45,39 @@ body{
     height: 250px;
     width: 250px;
 }
+
+#projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 920px;
+    height: 600px;
+}
+
+.card-body {
+    display: inline;
+    border: 1px solid black;
+    width: 30%;
+    height: 35%;
+    margin: 10px 10px 10px 10px;
+ }
+ 
+ .img-container > img{
+    height: 100%;
+    width: 100%;
+ }
+
+ .form-container{
+    display: block;
+    margin: 0 auto;    
+ }
+
+ /* .img-container img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ .card-body p, .card-body h1 {
+    margin: 8px;
+ }
+  */
