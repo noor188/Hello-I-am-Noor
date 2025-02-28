@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <nav>
+        <ul id="nav-container">
+            <li class= "nav-item"><a href="../index.html">Home</a></li>
+            <li class= "nav-item"><a href="./projects.html">Projects</a></li>
+            <li class= "nav-item"><a href="./contact.html">Contact me</a></li>
+        </ul>        
+    </nav> 
+    <form action="#" id="form-container">
+        <fieldset>
+        <label for="email">Email: 
+            <input type="email" name="email" id="email">
+        </label><br>
+        </fieldset> 
+        <fieldset>
+            <label for="communication">Communication form: </label>
+            <select name="communication" id="communication">
+                <option value="chat">Video coffee chat</option>
+                <option value="meetUp">In person meet up</option>
+                <option value="email">Email follow up</option>            
+            </select>
+        </fieldset><br>
+        <fieldset>
+            <label for="msg-box">Message</label>
+            <textarea name="msg-box" id="msg-box" rows="4" cols="50"></textarea>
+        </fieldset>
+        <fieldset>
+        <input type="submit"> 
+        </fieldset>    
+    </form>    
+</body>
+</html>
