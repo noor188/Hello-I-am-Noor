@@ -38,7 +38,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 30px;        
+    font-size: 30px;     
 }
 
 #profile-img{
@@ -62,7 +62,7 @@ body{
     margin: 10px 10px 10px 10px;
  }
  
- .img-container > img{
+ .img-container > a img{
     height: 100%;
     width: 100%;
  }
@@ -72,6 +72,51 @@ body{
     margin: 0 auto;    
  }
 
+ table{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+ }
+
+ td {
+    border: 1px solid rgb(171, 29, 116);
+ }
+
+ p::before {
+    color: red;
+  }
+
+ td a:link{
+    color: red;
+ }
+
+ td a:visited{
+    color: green;
+ }
+
+ a:hover, td a:hover{
+    color: hotpink;
+ }
+
+ a:active{
+    color: blue;
+ }
+
+ #form-container{
+    margin-top: 10%;
+    margin-left: 35%;
+    
+ }
+
+ #form-container > fieldset{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 25%;
+
+ }
+
+  
  /* .img-container img {
     max-width: 100%;
     height: auto;
