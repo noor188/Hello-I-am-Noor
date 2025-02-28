@@ -44,4 +44,9 @@ The main purpose of this website is to showcase my skills in Javascript and impl
 ├── styles/
 │   ├── style.css
 │
+├── js/
+│   ├── contact.js
+│   ├── events.js
+│   ├── index.js
+|
 ├── index.html
