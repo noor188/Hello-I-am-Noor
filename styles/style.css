@@ -116,7 +116,44 @@ body{
 
  }
 
+ ul{
+   display: flex;
+   justify-content: center;   
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;   
+ }
+
+ li{   
+   float:left;
+   border-right: 1px solid white;
+ }
+
+li:last-child{
+   border-right: none;
+}
+
+li a {
+   display: block;
+   text-decoration: none;
+   padding: 14px 16px;
+   text-align: center;
+   color: rgb(171, 29, 116);
+   font-family: "Dancing Script", serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 30px;
+}
+
+ li a:hover:not(.active){
+   background-color: white;
+ }
   
+.active{
+   background-color: white;
+}
  /* .img-container img {
     max-width: 100%;
     height: auto;
