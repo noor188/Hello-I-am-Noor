@@ -9,22 +9,22 @@
     background-attachment: fixed;
 } */
 
-.theme{
-   background-color: #fbe3e8;
-   color: rgb(171, 29, 116);
-   font-family: "Dancing Script", serif;
+.dark-theme{
+   background-color: #121212;
+   color: #e0e0e0;
+   font-family: 'Arial', sans-serif;
 }
 
 .container{
    max-width: 1200px;
    margin: 0 auto;
+   padding: 20px;
 }
 
 h2 {
-   color: rgb(89, 10, 59);
+   color: #e0e0e0;
    text-align: center;
    margin-bottom: 40px;
-
 }
 
 .experience-grid{
@@ -80,15 +80,18 @@ h2 {
 
 #main-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;    
 }
 
-.bio-part{
+.bio-part, .bio{
     font-family: "Dancing Script", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 30px;     
+    font-size: 30px;
+    max-width: 400px; 
 }
 
 #profile-img{
