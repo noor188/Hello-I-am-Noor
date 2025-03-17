@@ -11,31 +11,82 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CV</title>
 </head>
-<body>
+<body class="dark-theme">
     <ul>
         <li><a href="./">Home</a></li>
-        <li><a href="./pages/Experience.html">Projects</a></li>
-        <li><a href="./pages/contact.html">Contact me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
     </ul>   
     <div id="main-container">
-        <div>
-            <p class="bio-part">Hi I am <span id="name-id">Noor</span>. I have a master degree in Computer Science and a strong interest in software development</p>
-            <table class="social-part">
-                <caption id="media-id">Media</caption>
-                <tbody>
-                    <tr>
-                        <td style="color: rgb(0, 0, 0)"><i  class="fa fa-graduation-cap" aria-hidden="true"></i>Master's in computer Science</td>
-                        <td style="color: rgb(0, 0, 0)"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Bachelor in Computer Enginnering</td>
-                    </tr>
-                    <tr>
-                        <td><a class="fa fa-linkedin" href="https://www.linkedin.com/in/noormmlk" target="_blank"></a></td>
-                        <td><a class="fa fa-github" href="https://github.com/noor188" target="_blank"></a></td>
-                    </tr>
-                </tbody>                
-            </table>    
+        <div class="bio-part">
+            <p>Hi I am Noor.</p>
+            <p><i  class="fa fa-graduation-cap" aria-hidden="true"></i>Master's in computer Science</p>
+            <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>Bachelor in Computer Enginnering</p>
+            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/noormmlk" target="_blank"></a> <a class="fa fa-github" href="https://github.com/noor188" target="_blank"></a>
         </div>
         <div><img src="./images/Profile.jpg" id="profile-img"></div>
     </div>
+    <div class="container">
+        <h2>Get to know me</h2>
+        <p >Passionate Software Developer with an M.S. in Computer Science and Job readiness training from Per Scholas, specializing in Python, Java, and Spring Boot to build impactful tech solutions. Skilled in writing clean, efficient code, optimizing web applications, and solving complex issues. Eager to collaborate on innovative projects that drive technological advancement and create meaningful change. 
+        </p>
+    </div>
+    <div class="container">
+        <h2>Skills</h2>
+        <p>Methodologies: Agile, Scrum, DevOps, TDD, CI/CD, SDLC</p>
+        <p>Key Soft Skills: Problem-solving, Teamwork, Communication, Adaptability, Organizing/Planning, Leadership</p>
+        <p>Programming languages: Python, Java, PHP, C#, HTML, CSS, JavaScript</p>
+        <p>Frameworks and libraries: Spring Boot, JDBC, Hibernate, JPA, Lombok, MySQL, AWS, Git, GitHub, JUnit, Maven, Node.js, RESTful Web Services, RestAPI, JSON, Tomcat, HTTPS</p>
+        <p>Other: Data structures and Algorithms, Object-oriented design and programming, Data Management Systems</p>
+    </div>
+    <div class="container" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+            <!-- cards -->
+             <div class="experience-card">
+                <a href="https://aiala.nmsu.edu/" target="_blank"><img src="../images/spaceInvaders.jpg" alt="">
+                <p>Web Designer</p></a>
+             </div>
+             <div class="experience-card">
+                <a href="https://arrowheadcenter.nmsu.edu/" target="_blank"><img src="../images/schoolManagmentSystem.jpg" alt="">
+                <p>Full Stack Web Developer</p></a>
+             </div>
+             <div class="experience-card">
+                <a href="https://vil.nmsu.edu/index.html" target="_blank"><img src="../images/codingFoundations.jpg" alt="">
+                <p>Summer Camp Instructor</p></a>
+             </div>
+             <div class="experience-card">
+                <a href="https://newmexicoconsortium.org/scivista-partners-with-nmc-virtual-reality-to-universities/" target="_blank"><img src="../images/spaceInvaders.jpg" alt="">
+                <p>Virtual Reality Development Intern</p></a>
+             </div>             
+             <div class="experience-card">
+                <a href="https://catalogs.nmsu.edu/search/?search=C%C2%A0S%C2%A0482"><img src="../images/codingFoundations.jpg" alt="">
+                <p>Teaching Assistant </p></a>
+             </div>
+        </div>
+    </div>   
+    <div class="container" id="projects">
+        <h2>Projects</h2>
+        <div class="experience-grid">
+            <!-- cards -->
+             <div class="experience-card">
+                <a href="https://github.com/noor188/Caregiver-Managment-System" target="_blank"><img src="../images/spaceInvaders.jpg" alt="">
+                <p>Caregiver Managment System</p></a>
+             </div>
+             <div class="experience-card">
+                <a href="https://github.com/noor188/Task-Management-System" target="_blank"><img src="../images/schoolManagmentSystem.jpg" alt="">
+                <p>Task-Management-System</p></a>
+             </div>
+             <div class="experience-card">
+                <a href="https://github.com/noor188/Ticket-Managment-Application" target="_blank"><img src="../images/codingFoundations.jpg" alt="">
+                <p>Ticket Managment Application</p></a>
+             </div>
+             <div class="experience-card">
+                <a href="https://github.com/noor188/Hello-I-am-Noor" target="_blank"><img src="../images/spaceInvaders.jpg" alt="">
+                <p>Portfolio website</p></a>
+             </div>             
+        </div>
+    </div>  
     <script src="./js/index.js"></script>
 </body>
 </html>
