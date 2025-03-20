@@ -192,7 +192,7 @@ li a {
    text-decoration: none;
    padding: 14px 16px;
    text-align: center;
-   color: rgb(171, 29, 116);
+   color: white;
    font-family: "Dancing Script", serif;
    font-optical-sizing: auto;
    font-weight: 300;
@@ -206,6 +206,10 @@ li a {
   
 .active{
    background-color: white;
+}
+
+a{
+   text-decoration: none;
 }
  /* .img-container img {
     max-width: 100%;
