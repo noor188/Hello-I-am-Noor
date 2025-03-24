@@ -18,13 +18,61 @@
 .container{
    max-width: 1200px;
    margin: 0 auto;
-   padding: 20px;
+   padding: 20px;   
 }
 
+#aboutme-section, #skills-section {
+   background-color: #fbe3e8;
+   border-radius: 40px;
+   color: black;
+   margin-top: 10px;
+}
+
+
 h2 {
-   color: #e0e0e0;
+   color: rgb(255, 255, 255);
    text-align: center;
    margin-bottom: 40px;
+}
+
+.skill-title{
+   background-color: #03dac5;
+   color: #121212;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 4px;
+   text-align: center;
+   transition: background-color 0.3s ease; 
+}
+
+.skill-title:hover{
+   background-color: #00c4b4;
+   color: white;
+   scale: 1.1;
+}
+
+.container p{
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+
+.aboutme-section h2, .skill-title h2{
+   color: black;
+}
+
+.social-media{
+   display: flex;
+   justify-content: center;
+}
+
+.fa-linkedin, .fa-github{
+   color: hotpink;
+   transition: transform 0.3s ease;
+   margin-left: 20px;
+}
+
+.fa-linkedin:hover, .fa-github:hover{
+   transform: scale(1.1);
 }
 
 .experience-grid{
@@ -81,7 +129,7 @@ h2 {
 #main-container{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     align-items: center;    
 }
 
@@ -97,6 +145,7 @@ h2 {
 #profile-img{
     height: 250px;
     width: 250px;
+    border-radius: 40px;
 }
 
 #projects-container{
