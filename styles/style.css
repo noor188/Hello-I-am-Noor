@@ -38,6 +38,7 @@ h2 {
 .skill-title{
    background-color: #03dac5;
    color: #121212;
+   margin-top: 20px;
    padding: 10px 10px;
    border: none;
    border-radius: 4px;
@@ -103,8 +104,9 @@ h2 {
 
 .experience-card p {
    color: #fbe3e8;
-   margin-bottom: 10px;
+   margin-bottom: 25px;
    text-align: center;
+   font-size: 25px;
 }
 
 #nav-container{
@@ -259,6 +261,11 @@ li a {
 
 a{
    text-decoration: none;
+}
+
+.skill{
+   color: rgb(248, 128, 180);
+   font-size: 13px;
 }
  /* .img-container img {
     max-width: 100%;
